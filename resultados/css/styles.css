@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(240, 17%, 95%);
+}
+
+.box-1{
+    position: relative;
+    background-color: hsl(241, 81%, 54%, 1);
+    background-color: hsl(252, 100%, 67%);
+    box-shadow: inset 5px -245px 125px hsl(241, 81%, 54%, 1);
+    border-radius: 10%;
+    width: 270px;
+    height: 370px;
+    margin-top: 200px;
+    margin-left: 400px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    z-index: 1;
+}
+
+.text-1{
+    color: hsla(219, 19%, 79%, 0.932);
+    padding-top: 25px;
+    padding-left: 80px;
+    font-size: 18px;
+}
+
+.circulo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsl(241, 81%, 54%, 1);
+    background-color: hsla(256, 72%, 46%);
+    box-shadow: inset 2px -100px 80px hsl(241, 81%, 54%, 1);
+    left: 60px;
+    top: 80px;
+}
+
+.numero{
+    position: absolute;
+    color: #fff;
+    padding-left: 45px;
+    top: -15px;
+    font-size: 55px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.second-n{
+    position: absolute;
+    color: hsla(220, 20%, 79%, 0.562);
+    font-size: 14px;
+    padding-top: -10px;
+    left: 55px;
+}
+
+.text-2{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 190px;
+    left: 112px;
+}
+
+.text-3{
+    color: hsla(219, 19%, 79%, 0.932);
+    text-align: center;
+    padding-top: 230px;
+    font-size: 13px;
+}
+
+.box-2{
+    position: relative;
+    background-color: #fff;
+    width: 320px;
+    height: 370px;
+    border-radius: 20px;
+    top: -385px;
+    left: 600px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.text-4{
+    padding-left: 95px;
+    padding-top: 25px;
+    color: hsl(224, 30%, 27%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+.reaction{
+    position: absolute;
+    left: 95px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(0, 79%, 96%);
+    color: hsl(0, 100%, 75%);
+}
+
+.reaction-text{
+    padding-left: 30px;
+    margin-top: -28px;
+    font-size: 14px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.material-symbols-outlined{
+    padding-top: 7px;
+    
+}
+
+.reaction-first-n{
+    color: hsl(224, 30%, 27%);
+    padding-left: 140px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.reaction-n{
+    padding-left: 170px;    
+    margin-top: -32px;
+    font-size: 14px;
+    color: hsl(225, 4%, 65%);
+}
+
+.memory{
+    position: absolute;
+    left: 95px;
+    top: 110px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(39, 100%, 94%);
+    color: hsl(39, 100%, 56%);
+}
+
+.memory-text{
+    padding-left: 30px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.memory-first-n{
+    color: hsl(224, 30%, 27%);
+    padding-left: 140px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.memory-n{
+    padding-left: 170px;    
+    margin-top: -32px;
+    font-size: 14px;
+    color: hsl(225, 4%, 65%);
+}
+
+.verbal{
+    position: absolute;
+    left: 95px;
+    top: 153px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(166, 100%, 91%);
+    color: hsl(166, 100%, 37%);
+}
+
+.verbal-text{
+    padding-left: 30px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.verbal-first-n{
+    color: hsl(224, 30%, 27%);
+    padding-left: 140px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.verbal-n{
+    padding-left: 170px;    
+    margin-top: -32px;
+    font-size: 14px;
+    color: hsl(225, 4%, 65%);
+}
+
+.visual{
+    position: absolute;
+    left: 95px;
+    top: 197px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(233, 82%, 94%);
+    color: hsl(234, 85%, 45%);
+}
+
+.visual-text{
+    padding-left: 30px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.visual-first-n{
+    color: hsl(224, 30%, 27%);
+    padding-left: 140px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.visual-n{
+    padding-left: 170px;    
+    margin-top: -32px;
+    font-size: 14px;
+    color: hsl(225, 4%, 65%);
+}
+
+.buttom{
+    position: absolute;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    font-size: 14px;
+    left: 95px;
+    top: 280px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 70px;
+}
