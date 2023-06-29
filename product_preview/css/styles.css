@@ -1,0 +1,75 @@
+body{
+    background-color: hsla(31, 20%, 79%, 0.664);
+}
+
+
+
+.image{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    left: 350px;
+    top: 150px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.box-2{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    left: 650px;
+    top: -335px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+    padding-top: 35px;
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.text-1{
+    font-family: 'Fraunces', serif;
+    padding-left: 50px;
+    font-size: 28px;
+}
+
+.text-2{
+    padding-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(226, 8%, 68%);
+    font-size: 13px;
+}
+
+.first-n{
+    padding-left: 50px;
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    color: hsl(158, 48%, 34%);
+}
+
+.second-n{
+    padding-left: 150px;
+    margin-top: -22px;
+    color: hsl(226, 8%, 68%);;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.button{
+    margin-top: 70px;
+    margin-left: 65px;
+    padding: 15px 70px;
+    border: 0;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: hsl(158, 48%, 34%);
+    color: #fff;
+}
